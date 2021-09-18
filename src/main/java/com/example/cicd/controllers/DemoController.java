@@ -33,7 +33,7 @@ public class DemoController {
     public Order getOrderById(@PathVariable("id") Integer id){
         Order order = new Order();
         try {
-            logger.info("Getting order by id...");
+            logger.info("Getting order by id ");
             order = orderService.getOrderById(id);
         } catch (OrderNotFoundException e) {
             logger.error(String.valueOf(e));
