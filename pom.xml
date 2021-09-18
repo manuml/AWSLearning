@@ -49,6 +49,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>order-service-app</finalName>
 	</build>
 
 </project>
